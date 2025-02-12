@@ -1,5 +1,7 @@
+import { LucideNavigation } from "lucide-react";
 import Image from "next/image";
+import AdminDashboard from "./Admin/AdminDashboard";
 
 export default function Home() {
-  return <div>main page test</div>;
+  return <AdminDashboard></AdminDashboard>;
 }
